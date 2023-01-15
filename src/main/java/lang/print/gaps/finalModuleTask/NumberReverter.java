@@ -5,7 +5,7 @@ public class NumberReverter {
         int first = number/1000;
         int second = (number-first*1000)/100;
         int third = (number - (first * 1000) - (second * 100)) / 10;
-     System.out.println(third+""+second+""+first);
+            System.out.println(third+""+second+""+first);
 
     }
 }
